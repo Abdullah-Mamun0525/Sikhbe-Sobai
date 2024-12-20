@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.main-box{
+    display: flex;
+    align-items: center;
+
+}
+.logo, .btns{
+    
+    flex-basis: 20%;
+}
+.menu{
+    flex-basis: 60%;
+
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 26px;
+    font-size: 16px;
+    color: #0e72cc;
+}
+.btns{
+  
+
+}
+.btns button {
+    background: #0e72cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #0e72cc;
+}
